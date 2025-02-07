@@ -70,14 +70,14 @@ const SearchMoviesApp = () => {
         </div>
 
         {/* Contenedor de búsqueda por categoría y tipo */}
-        <div className="search-by-category-type">
-          <h3>Search by Category & Type</h3>
+        {/* <div className="search-by-category-type">
+          <h3>Search by Category & Type</h3> */}
 
-          {/* Categoría */}
-          <div className="category-filter">
+        {/* Categoría */}
+        {/* <div className="category-filter">
             <h4>Category:</h4>
-            <select
-            // onChange={(e) => setCategory(e.target.value)}
+            <select */}
+        {/* // onChange={(e) => setCategory(e.target.value)}
             // value={category}
             >
               <option value="Action">Action</option>
@@ -85,10 +85,10 @@ const SearchMoviesApp = () => {
               <option value="Horror">Horror</option>
               <option value="Drama">Drama</option>
             </select>
-          </div>
+          </div> */}
 
-          {/* Tipo de contenido */}
-          <div className="type-filter">
+        {/* Tipo de contenido */}
+        {/* <div className="type-filter">
             <h4>Type:</h4>
             <label>
               <input
@@ -99,8 +99,8 @@ const SearchMoviesApp = () => {
               />
               Movie
             </label>
-            <label>
-              <input
+            <label> */}
+        {/* <input
                 type="radio"
                 value="series"
                 checked={type === "series"}
@@ -108,11 +108,11 @@ const SearchMoviesApp = () => {
               />
               Series
             </label>
-          </div>
+          </div> */}
 
-          {/* Botón de búsqueda */}
-          <button>Search</button>
-        </div>
+        {/* Botón de búsqueda */}
+        {/* <button>Search</button>
+        </div> */}
       </div>
       <ListMovies movieData={selectedMovie} />
     </div>
