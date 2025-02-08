@@ -18,7 +18,7 @@ const SearchMoviesApp = () => {
 
     try {
       const response = await axios.get(
-        `http://www.omdbapi.com/?t=${searchTerm}&apikey=2c3f5d20`
+        `https://www.omdbapi.com/?t=${searchTerm}&apikey=2c3f5d20`
       );
 
       if (response.data.Response === "True") {
